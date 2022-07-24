@@ -2,6 +2,50 @@
     display: flex;
      align-items: center;
       text-align: center;
-      border: 2px solid red;
+    //  border: 2px solid red;
       height: auto;
+      justify-content: space-evenly;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 7px;
+    //   border-bottom: 1px solid white;
+      .menu-List{
+        display: flex;
+
+      }
+      .menu-serachDiv{
+        justify-content: space-evenly;
+        flex: 0.5;
+      }
 }
+
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9  51%, #4776E6  100%);
+  
+    transition: 0.5s;
+    background-size: 200% auto;
+           
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    border-radius: 40% !important;
+    
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  //  border-radius: -20%;
+
+  }
+
+//Home page starts
+
+ .Home-Page{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(140,46,119,1) 45%, rgba(123,67,136,1) 100%, rgba(0,212,255,1) 100%);
+top: 0;
+height: 70vh;
+ }
