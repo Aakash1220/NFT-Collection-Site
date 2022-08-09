@@ -54,7 +54,7 @@ z-index: 9999;
 //Home page starts
 
 .Home-Page {
-  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 20%, rgba(140, 46, 119, 1) 45%, rgba(123, 67, 136, 1) 100%, rgba(0, 212, 255, 1) 100%);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 20%, rgb(68, 19, 58) 45%, rgb(8, 4, 102)100%, rgba(0, 212, 255, 1) 100%);
   padding: 70px 0px 0px 0px;
 
   //height: calc(100vh - 50px);
@@ -129,6 +129,8 @@ width: 75%;
   justify-content: flex-start;
   align-items: flex-start;
   padding:0px  70px;
+ // width: 100%;
+  height: 70vh;
   span > svg{
     font-size: 45px;
     fill: #8E54E9;
@@ -147,7 +149,7 @@ width: 75%;
   width: 240px;
   //border: 1px solid white;
   border-radius: 15px;
-  background-color: rgba(77, 77, 77, 0.44);
+  background-color: rgba(77, 77, 77, 0.34);
   .card-header{
     display: flex;
     flex-direction: row;
@@ -167,6 +169,31 @@ width: 75%;
     width: 200px;
     border-radius: 30px;
   }
+  .card-likes{
+    position: absolute;
+    display: flex;
+    width: 5%;
+   // flex-direction: row;
+   // align-items: center;
+    //float: right;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left: 31px;
+   // background: ;
+    background-color: rgba(77, 77, 77, 0.24);
+    border-radius: 8px;
+    >svg{
+      width: 17px;
+      fill: red;
+    }
+  }
+  .card-title{
+    font-size: 20px;
+    color: bisque;
+    padding: 15px 22px;
+    float: left;
+  }
+  
 }
 
 .gradientText{
