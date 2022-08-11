@@ -27,3 +27,52 @@ export const sliderData = [{
     createdBy:'@esita_sen'
 },
 ]
+
+export const userData = [
+    {
+        id:1,
+        createrName:'1',
+        avatar:'avatar.png',
+    },
+    {
+        id:2,
+        createrName:'1',
+        avatar:'bear.png'
+    },
+    {
+        id:3,
+        createrName:'1',
+        avatar:'gamer.jpg'
+    }
+    ,
+    {
+        id:4,
+        createrName:'1',
+        avatar:'man.png'
+    },
+    {
+        id:5,
+        createrName:'1',
+        avatar:'man(1).png'
+    },
+    {
+        id:6,
+        createrName:'1',
+        avatar:'profile.png'
+    },
+    {
+        id:7,
+        createrName:'1',
+        avatar:'student.png'
+    },
+    {
+        id:8,
+        createrName:'1',
+        avatar:'user.png'
+    },
+    {
+        id:9,
+        createrName:'1',
+        avatar:'woman.png'
+    },
+]

@@ -8,6 +8,7 @@ import Carousel from 'react-material-ui-carousel'
 import FavoriteRoundedIcon from '@mui/icons-material/FavoriteRounded';
 import LiveAuction from './LiveAuction';
 import { sliderData } from '../data/Constant';
+import TopSeller from './TopSeller';
 const Home = () => {
   return (
     <>
@@ -62,6 +63,7 @@ const Home = () => {
       </div>
     </div>
     <LiveAuction />
+    <TopSeller />
     </>
   )
 }
