@@ -3,6 +3,7 @@ import ModeStandbyTwoToneIcon from '@mui/icons-material/ModeStandbyTwoTone';
 import ProductCard from './ProductCard';
 import TrendingFlatIcon from '@mui/icons-material/TrendingFlat';
 import { Button } from '@mui/material';
+import { sliderData } from '../data/Constant';
 const LiveAuction = () => {
   return (
     <>
@@ -20,10 +21,13 @@ const LiveAuction = () => {
             </div>
         </span>
         <div className='auction-tokens'>
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
+          {
+            sliderData && sliderData.map((cardData)=>(
+              <ProductCard title={cardData.title} likes={cardData.likes} createdBy={cardData.createdBy} price={cardData.price} image={cardData.image}/>
+            ))
+          }
+        
+            
 
         </div>
         </div>

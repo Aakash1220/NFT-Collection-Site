@@ -180,7 +180,9 @@ width: 75%;
     margin-top: 20px;
     margin-left: 31px;
    // background: ;
-    background-color: rgba(77, 77, 77, 0.24);
+    background-color: rgba(77, 77, 77,0.3);
+    color: #fff;
+    border: 1px solid wheat;
     border-radius: 8px;
     >svg{
       width: 17px;
@@ -189,10 +191,17 @@ width: 75%;
   }
   .card-title{
     font-size: 20px;
-    color: bisque;
+    color: white;
     padding: 15px 22px;
     float: left;
   }
+  .card-title2{
+    font-size: 15cpx;
+    color: white;
+    padding: 0 22px;
+    float: left;
+  }
+  
   
 }
 
